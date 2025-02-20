@@ -1,6 +1,6 @@
-[![progress-banner](https://backend.codecrafters.io/progress/interpreter/ab2b41fe-706c-4498-8fcb-e6efd47215a7)](https://app.codecrafters.io/users/codecrafters-bot?r=2qF)
+[![progress-banner](https://backend.codecrafters.io/progress/interpreter/d48eb220-a193-4faf-9e99-1424ce16513b)](https://app.codecrafters.io/users/codecrafters-bot?r=2qF)
 
-This is a starting point for Go solutions to the
+This is a starting point for C solutions to the
 ["Build your own Interpreter" Challenge](https://app.codecrafters.io/courses/interpreter/overview).
 
 This challenge follows the book
@@ -29,8 +29,8 @@ challenge. This challenge will start from chapter 4,
 
 # Passing the first stage
 
-The entry point for your program is in `cmd/myinterpreter/main.go`. Study and
-uncomment the relevant code, and push your changes to pass the first stage:
+The entry point for your program is in `src/main.c`. Study and uncomment the
+relevant code, and push your changes to pass the first stage:
 
 ```sh
 git commit -am "pass 1st stage" # any msg
@@ -43,8 +43,8 @@ Time to move on to the next stage!
 
 Note: This section is for stages 2 and beyond.
 
-1. Ensure you have `go (1.22)` installed locally
+1. Ensure you have `gcc` installed locally
 2. Run `./your_program.sh` to run your program, which is implemented in
-   `cmd/myinterpreter/main.go`.
+   `src/main.c`.
 3. Commit your changes and run `git push origin master` to submit your solution
    to CodeCrafters. Test output will be streamed to your terminal.
